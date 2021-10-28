@@ -1,0 +1,37 @@
+.pStyle{
+    line-height: 1.8rem;
+    letter-spacing: 0.5;
+    font-size: 1.1rem;
+}
+
+.subTitle{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.paddingText{
+    padding-bottom: 2rem;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+/****Color de fondo de los divs d los proyectos*****/
+
+.pPrimero {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.pTercero {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.pSegundo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(231, 234, 235);
+}
