@@ -113,6 +113,36 @@ p {
 }
 
 /* ----------------------------------------- */
+/* QUIENES SOMOS */
+/* ------------------------------------------*/
+.quienes-somos__content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.quienes-somos ul {
+  color: #757575;
+}
+
+.quienes-somos__img img {
+  border-radius: 2%;
+}
+
+/* ----------------------------------------- */
+/* SERVICIOS */
+/* ------------------------------------------*/
+.servicios-icon {
+  font-size: 4em;
+  color: #3F51B5;
+}
+
+.service-card {
+  text-align: center;
+}
+
+
+/* ----------------------------------------- */
 /* FOOTER */
 /* ------------------------------------------*/
 footer {
