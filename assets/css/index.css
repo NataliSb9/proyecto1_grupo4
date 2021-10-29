@@ -114,7 +114,9 @@ p {
     padding: 0px;
 }
 
-
+/* ----------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------*/
 footer {
     background-color: #212121;
 }
@@ -137,6 +139,12 @@ footer .row {
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #757575;
+}
+
+.social {
+  display: flex;
+  font-size: 2em;
+  justify-content: space-around;
 }
 
 .ft-sec-1 {
