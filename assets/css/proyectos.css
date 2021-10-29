@@ -52,14 +52,24 @@ div.banner-text{
     display: flex;
     justify-content: flex-start;
     flex-flow: column wrap;
-    padding-left:7.5vw ;
+    padding-left:0vw ;
+    margin-left: 9vw;
 }
 
+@media all and (min-width:1300px) {
+    div.banner-text{
+        padding-left:0vw ;
+        margin-left: 16vw;
+        
+    }
+    }
 
 @media all and (max-width:992px) and (min-width:768) {
 div.banner-text{
     text-align: center;
     margin: 0 auto;
+    padding-left:0vw ;
+    margin-left: 0vw;
     
 }
 }
@@ -67,6 +77,7 @@ div.banner-text{
     div.banner-text{
         text-align: center;
         margin: 0 auto;
+        
     }
     h1{
         font-size: 2rem;
