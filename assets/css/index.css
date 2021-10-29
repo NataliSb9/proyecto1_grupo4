@@ -119,6 +119,7 @@ p {
   display: flex;
   flex-direction: column;
   align-self: center;
+  line-height: 30px;
 }
 
 .quienes-somos ul {
