@@ -61,11 +61,6 @@ header .navbar-toggler {
     margin: 1em;
 }
 
-.img-gmap {
-    margin: 0px;
-    padding: 0px;
-}
-
 p {
     color: #757575;
 }
@@ -82,15 +77,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.figure-map {
-    margin: 0px;
-    border-radius: 2%;
-    border-top: 2px solid #3F51B5;
-    border-left: 2px solid #3F51B5;
-    border-right: 2px solid #757575;
-    border-bottom: 2px solid #757575;
 }
 
 .carrusel {
