@@ -43,7 +43,6 @@
     font-size: 2.5rem;
 }
 
-
 .valueText{
     padding: 3.5rem 0;
     text-align: center;
@@ -53,4 +52,16 @@
     font-size: 1.6rem;
     padding-bottom: 0.7rem;
     color: rgb(22, 22, 22);
+}
+
+#frasesEquipo{
+   width:30rem;
+}
+
+#frasesEquipo p{
+    text-align: center;
+}
+
+#fasesSection{
+    margin-bottom: 2rem;
 }
