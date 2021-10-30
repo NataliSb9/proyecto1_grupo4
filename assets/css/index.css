@@ -113,6 +113,39 @@ p {
     padding: 0px;
 }
 
+
+/****Banner de proyectos*****/
+
+.mainTitleSection{
+    margin-bottom: 1.5rem;
+    padding-top: 2vh;
+    font-size: 3rem;   
+}
+
+.subH1{
+    color: white;
+    font-weight: 600;
+}
+
+.banner{
+   display: flex;
+   justify-content: flex-start;
+   padding-top: 5rem;
+   padding-bottom: 1rem;
+}
+div.banner{
+    width: 100%;
+    color: white;
+    background-color: #3F51B5;
+}
+
+div.banner-text{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    padding-left:0vw;
+}
+
 /* ----------------------------------------- */
 /* QUIENES SOMOS */
 /* ------------------------------------------*/
