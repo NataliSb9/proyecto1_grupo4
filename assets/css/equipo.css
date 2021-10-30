@@ -20,7 +20,36 @@
     padding: 1rem 0;
 }
 
-p {
+.pEquipo {
     line-height: 2rem;
     letter-spacing: 0.08rem;
+}
+
+#values {
+    padding: 5rem 0;
+}
+#value1 ,#value2, #value3  {
+    margin: 2rem 1rem;
+    width: 20rem;
+    height: 15rem;
+    border: 0.2rem solid #3F51B5;
+}
+
+#values h2{
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+.subValue{
+   color: #757575;
+}
+
+.valueText{
+    padding: 3.5rem 0;
+    text-align: center;
+}
+
+.valueText h3{
+    font-size: 1.6rem;
+    color: rgb(27, 27, 27);
 }
