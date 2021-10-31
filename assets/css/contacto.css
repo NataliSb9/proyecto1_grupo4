@@ -1,5 +1,9 @@
 /****/
-
+body{
+    background-image: url(../img/Contactanos/mapa-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .column-1 {
     height: 600px;
@@ -14,6 +18,7 @@
 
 .column-2 {
     height: 600px;
+    background-color: white;
     border-radius: 0% 8px 8px 0%;
     display: flex;
     flex-direction: column;
@@ -26,7 +31,7 @@
 .formulario {
     height: 600px;
     border-radius: 8px;
-    margin: 2em;
+    margin: 5em 2em;
     min-height: 100px;
 }
 
