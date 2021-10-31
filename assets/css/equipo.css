@@ -1,3 +1,14 @@
+.paddingText{
+    padding: 1rem 0;
+}
+
+.pEquipo {
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+}
+
+/***Información desarrolladores***/
+
 #desarrollador1{
     padding: 2.2rem 0;
 }
@@ -16,18 +27,13 @@
     background-color: rgb(231, 234, 235);
 }
 
-.paddingText{
-    padding: 1rem 0;
-}
 
-.pEquipo {
-    line-height: 2rem;
-    letter-spacing: 0.08rem;
-}
+/***Sección valores del equipo***/
 
 #values {
     padding: 5rem 0;
 }
+
 #value1 ,#value2, #value3  {
     margin: 2rem 1rem;
     width: 20rem;
@@ -54,14 +60,27 @@
     color: rgb(22, 22, 22);
 }
 
+
+/***Carousell***/
+
 #frasesEquipo{
-   width:20rem;
+   height: 20rem;
+   align-items: center;
 }
 
 #frasesEquipo p{
+    align-items: center;
     text-align: center;
+    
 }
 
-#fasesSection{
-    margin-bottom: 2rem;
+#frasesSection{
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    background-color:  rgb(231, 234, 235) ;
+}
+
+.pEquipoFrases {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
 }
