@@ -79,19 +79,8 @@ p {
     justify-content: center;
 }
 
-.carrusel {
-    margin: 0px;
-}
-
 .d-block {
     max-height: 500px;
-}
-
-#carouselExampleFade {
-    margin: 0px;
-    padding: 0px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
 }
 
 .full-container {
@@ -101,6 +90,10 @@ p {
 /* ----------------------------------------- */
 /* QUIENES SOMOS */
 /* ------------------------------------------*/
+.quienes-somos{
+    margin-top: 416px;
+}
+
 .quienes-somos__content {
   display: flex;
   flex-direction: column;
