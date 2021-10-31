@@ -36,27 +36,28 @@
 
 #value1 ,#value2, #value3  {
     margin: 2rem 1rem;
-    width: 20rem;
-    height: 15rem;
+    width: 22rem;
+    height: 20rem;
     background-color:  rgb(231, 234, 235) ;
     /*border: 0.2rem solid #3F51B5;*/
-    padding:3rem 1rem;
+    padding:2rem 1rem;
 }
 
 #values h2{
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0rem;
     font-size: 2.5rem;
 }
 
 .valueText{
-    padding: 3.5rem 0;
+    padding: 3rem 0;
     text-align: center;
 }
 
 .valueText h3{
     font-size: 1.6rem;
-    padding-bottom: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 0.9rem;
     color: rgb(22, 22, 22);
 }
 
@@ -64,23 +65,27 @@
 /***Carousell***/
 
 #frasesEquipo{
-   height: 20rem;
+   height: 9rem;
    align-items: center;
 }
 
 #frasesEquipo p{
     align-items: center;
     text-align: center;
-    
 }
 
 #frasesSection{
-    margin-top: 2rem;
     margin-bottom: 7rem;
     background-color:  rgb(231, 234, 235) ;
+    padding-bottom: 5rem;
+}
+
+#frasesSection div h2{
+   padding-top: 2rem;
+   padding-bottom: 0.5rem;
 }
 
 .pEquipoFrases {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2.2rem;
 }
