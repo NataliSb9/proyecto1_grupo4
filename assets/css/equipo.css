@@ -80,7 +80,7 @@
 }
 
 #frasesEquipo{
-   height: 12rem;
+   height: 20rem;
    align-items: center;
 }
 
@@ -90,16 +90,11 @@
 }
 
 .pEquipoFrases {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2.2rem;
 }
 
 .professionalSpan{
     font-weight: 600;
     color: rgb(15, 15, 15);
-}
-
-#quotationIcon {
-    margin-top: 2rem;
-
 }
