@@ -1,13 +1,21 @@
-.paddingText{
-    padding: 1rem 0;
-}
 
-.pEquipo {
-    line-height: 2rem;
-    letter-spacing: 0.08rem;
+
+.h2Equipo{
+    text-align: center;
+    padding: 1.5rem 0rem;
+    font-size: 2.5rem;
 }
 
 /***Información desarrolladores***/
+
+.paddingDev{
+    padding: 1rem 0;
+}
+
+.pDev {
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+}
 
 #desarrollador1{
     padding: 2.2rem 0;
@@ -31,22 +39,16 @@
 /***Sección valores del equipo***/
 
 #values {
-    padding: 5rem 0;
+    padding: 8rem 0;
 }
 
 #value1 ,#value2, #value3  {
     margin: 2rem 1rem;
     width: 22rem;
-    height: 20rem;
+    height: 19rem;
     background-color:  rgb(231, 234, 235) ;
     /*border: 0.2rem solid #3F51B5;*/
     padding:2rem 1rem;
-}
-
-#values h2{
-    text-align: center;
-    padding: 1.5rem 0rem;
-    font-size: 2.5rem;
 }
 
 .valueText{
@@ -64,8 +66,21 @@
 
 /***Carousell***/
 
+#frasesSection{
+    padding-bottom: 7rem;
+}
+
+#frasesSection div h2{
+   padding-top: 2rem;
+   padding-bottom: 0.5rem;
+}
+
+#frasesCarousell{
+    background-color:  rgb(231, 234, 235);
+}
+
 #frasesEquipo{
-   height: 9rem;
+   height: 12rem;
    align-items: center;
 }
 
@@ -74,18 +89,17 @@
     text-align: center;
 }
 
-#frasesSection{
-    margin-bottom: 7rem;
-    background-color:  rgb(231, 234, 235) ;
-    padding-bottom: 5rem;
-}
-
-#frasesSection div h2{
-   padding-top: 2rem;
-   padding-bottom: 0.5rem;
-}
-
 .pEquipoFrases {
     font-size: 1.3rem;
     line-height: 2.2rem;
+}
+
+.professionalSpan{
+    font-weight: 600;
+    color: rgb(15, 15, 15);
+}
+
+#quotationIcon {
+    margin-top: 2rem;
+
 }
