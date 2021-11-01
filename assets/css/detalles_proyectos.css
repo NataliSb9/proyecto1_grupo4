@@ -36,6 +36,23 @@ h3.titleproy {
     color: black;
     font-size: 3rem;
 }
+
 h3.titleproyres {
     font-size: 2rem;
+}
+
+@media all and (max-width:768px) {
+    iframe.videolink {
+        text-align: center;
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+}
+
+@media all and (min-width:768px) and (max-width:1200px) {
+    iframe.videolink {
+        width: 50vw;
+    }
+
 }
