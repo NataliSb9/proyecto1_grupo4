@@ -67,6 +67,20 @@
 }
 
 /* ----------------------------------------- */
+/* COMPS */
+/* ------------------------------------------*/
+.btn {
+  border: none;
+}
+
+.btn-primary {
+  background: var(--default-primary-color-d1);
+}
+
+.btn-primary:hover {
+  background: var(--default-primary-color);
+}
+/* ----------------------------------------- */
 /* HEADER */
 /* ------------------------------------------*/
 .navbar-header {
@@ -194,14 +208,27 @@ div.banner-text {
 /* ----------------------------------------- */
 /* SERVICIOS */
 /* ------------------------------------------*/
-.servicios-icon {
-  font-size: 4em;
-  color: #3f51b5;
+.servicios-icon img {
+  max-width: 6rem;
 }
 
 .service-card {
   text-align: center;
+  background: var(--gray);
+  padding: 2rem;
+  height:100%;
 }
+
+.service-card-content__title h3 {
+  color: var(----primary-text-color);
+}
+
+@media screen and (max-width: 992px) {
+  .service-card {
+    margin-top: 2rem;
+  }
+}
+
 
 /* ----------------------------------------- */
 /* FOOTER */
