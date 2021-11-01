@@ -1,8 +1,27 @@
 /* ----------------------------------------- */
+/* FONTS */
+/* ------------------------------------------*/
+.noticia-card-title h3  {
+  font-size: 1.3rem
+}
+
+.noticia-secundaria-title h3 {
+  font-size: 1.2rem;
+}
+
+.evento-body__title h3 {
+  font-size: 1.3rem
+}
+
+/* ----------------------------------------- */
 /* NOTICIAS PRINCIPALES */
 /* ------------------------------------------*/
 .noticias-principales h3 {
   color: black;
+}
+
+.noticia-card-title {
+  margin-top: .5em;
 }
 
 .notica-card {

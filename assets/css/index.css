@@ -53,6 +53,11 @@
   padding: 3rem 0;
 }
 
+.infinite-wrapper--morado {
+  background: var(--default-primary-color);
+  padding: 3rem 0;
+}
+
 .divider{
   margin: 5em 0;
 }
