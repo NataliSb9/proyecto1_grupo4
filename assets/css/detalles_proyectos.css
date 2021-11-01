@@ -28,7 +28,14 @@ section.SectionProyects {
 h2.titleproy {
     font-weight: 200;
     letter-spacing: 0.08rem;
-    padding-bottom: 2vh;
+    padding-bottom: 4vh;
 }
 
-h3.titleproy {}
+h3.titleproy {
+    font-weight: 400;
+    color: black;
+    font-size: 3rem;
+}
+h3.titleproyres {
+    font-size: 2rem;
+}
