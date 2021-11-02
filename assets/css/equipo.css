@@ -38,7 +38,7 @@
     letter-spacing: 0.08rem;
 }
 
-#socialMediaIcon i{
+.socialMediaIcon i{
    padding-right: 0.5rem;
    font-size: 1.5rem;
    color: var(--default-primary-color);
