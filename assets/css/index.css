@@ -16,8 +16,16 @@
   padding: 0px;
 }
 
+.accent-color {
+  background: #448aff;
+}
+
 .dark-primary-color {
   background: #303f9f;
+}
+
+.divider-color {
+  border-color: #bdbdbd;
 }
 
 .default-primary-color {
@@ -28,14 +36,6 @@
   background: #c5cae9;
 }
 
-.text-primary-color {
-  color: #ffffff;
-}
-
-.accent-color {
-  background: #448aff;
-}
-
 .primary-text-color {
   color: #212121;
 }
@@ -44,13 +44,21 @@
   color: #757575;
 }
 
-.divider-color {
-  border-color: #bdbdbd;
+.text-primary-color {
+  color: #ffffff;
 }
 
 /* ----------------------------------------- */
 /* HELPERS */
 /* ------------------------------------------*/
+.active a {
+  color: white !important;
+}
+
+.divider {
+  margin: 5em 0;
+}
+
 .infinite-wrapper {
   background: var(--divider-color);
   padding: 3rem 0;
@@ -59,14 +67,6 @@
 .infinite-wrapper--morado {
   background: var(--default-primary-color);
   padding: 3rem 0;
-}
-
-.divider{
-  margin: 5em 0;
-}
-
-.active a {
-  color: white !important;
 }
 
 /* ----------------------------------------- */
@@ -86,9 +86,29 @@
 /* ----------------------------------------- */
 /* HEADER */
 /* ------------------------------------------*/
-.navbar-header {
-  background-color: #3f51b5;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.donde-estamos-extra {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.donde-estamos-extra h4 {
+  font-size: 2em;
+  font-weight: 700;
+  padding-bottom: 0.2em;
+  border-bottom: 4px solid #303f9f;
+}
+
+.donde-estamos-extra h3 {
+  color: black;
+}
+
+.d-block {
+  max-height: 500px;
+}
+
+.full-container {
+  padding: 0px;
 }
 
 header a {
@@ -103,38 +123,13 @@ header .navbar-toggler {
   border-color: white !important;
 }
 
-.no-need-for-this {
-  margin: 1em;
-}
-
-p {
-  color: #757575;
-}
-
-.donde-estamos-extra {
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-}
-
 .inner-extra-row {
-    flex-grow: 1;
-    flex-basis: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1em;
-}
-
-.donde-estamos-extra h4 {
-    font-size: 2em;
-    font-weight: 700;
-    padding-bottom: 0.2em;
-    border-bottom: 4px solid #303F9F;
-}
-
-.donde-estamos-extra h3 {
-    color: black;
+  flex-grow: 1;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1em;
 }
 
 .map-imagen {
@@ -151,35 +146,29 @@ p {
   justify-content: center;
 }
 
-.d-block {
-  max-height: 500px;
+.navbar-header {
+  background-color: #3f51b5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.full-container {
-  padding: 0px;
+.no-need-for-this {
+  margin: 1em;
+}
+
+p {
+  color: #757575;
 }
 
 /****Banner de proyectos*****/
-
-.mainTitleSection {
-  margin-bottom: 1.5rem;
-  padding-top: 2vh;
-  font-size: 3rem;
-}
-
-.subH1 {
-  color: white;
-  font-weight: 600;
-}
-
 .banner {
   display: flex;
   justify-content: flex-start;
   padding-top: 5rem;
   padding-bottom: 1rem;
-  background: linear-gradient(to bottom,#303F9F, #3F51B5, #448AFF);
+  background: linear-gradient(to bottom, #303f9f, #3f51b5, #448aff);
   box-shadow: 0 4px 8px 0 rgb(73, 74, 83);
 }
+
 div.banner {
   width: 100%;
   color: white;
@@ -193,43 +182,54 @@ div.banner-text {
   padding-left: 0vw;
 }
 
+.mainTitleSection {
+  margin-bottom: 1.5rem;
+  padding-top: 2vh;
+  font-size: 3rem;
+}
+
+.subH1 {
+  color: white;
+  font-weight: 600;
+}
+
 /* ----------------------------------------- */
 /* QUIENES SOMOS */
 /* ------------------------------------------*/
 .quienes-somos {
-    margin-top: 416px;
+  margin-top: 416px;
 }
 
 .quienes-somos__content {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  line-height: 30px;
 }
 
 .quienes-somos ul {
-    color: #757575;
+  color: #757575;
 }
 
 .quienes-somos__img img {
-    border-radius: 2%;
+  border-radius: 2%;
 }
 
 /* ----------------------------------------- */
 /* SERVICIOS */
 /* ------------------------------------------*/
 
-.servicios{
+.servicios {
   margin-bottom: 2em;
 }
 
 .servicios-icon {
-    font-size: 4em;
-    color: #3F51B5;
+  font-size: 4em;
+  color: #3f51b5;
 }
 
 .service-card {
-    text-align: center;
+  text-align: center;
 }
 .servicios-icon img {
   max-width: 6rem;
@@ -239,7 +239,7 @@ div.banner-text {
   text-align: center;
   background: var(--gray);
   padding: 2rem;
-  height:100%;
+  height: 100%;
 }
 
 .service-card-content__title h3 {
@@ -252,22 +252,37 @@ div.banner-text {
   }
 }
 
-
 /* ----------------------------------------- */
 /* FOOTER */
 /* ------------------------------------------*/
-footer {
-  background-color: #212121;
-}
-
-footer p,
-h3,
 a {
   color: white;
   text-decoration: none;
 }
 
-footer a:hover {
+.empresas {
+  margin-top: 2em;
+  background: rgb(48, 63, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 63, 159, 1) 0%,
+    rgba(63, 81, 181, 1) 35%,
+    rgba(68, 138, 255, 1) 100%
+  );
+}
+
+@media (max-width: 370px) {
+  .donde-estamos-extra {
+    flex-wrap: wrap;
+  }
+}
+
+footer {
+  background-color: #212121;
+}
+
+footer p,
+h3, footer a:hover {
   color: #448aff;
 }
 
@@ -278,12 +293,6 @@ footer .row {
 .footer-bottom {
   text-align: center;
   border-top: 1px solid #757575;
-}
-
-.social {
-    display: flex;
-    font-size: 2em;
-    justify-content: space-around;
 }
 
 .ft-sec-1 {
@@ -301,6 +310,12 @@ footer .row {
 
 .footer-logo {
   margin-bottom: 1em;
+}
+
+.social {
+  display: flex;
+  font-size: 2em;
+  justify-content: space-around;
 }
 
 .zoom {
@@ -327,17 +342,4 @@ footer .row {
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-}
-
-.empresas {
-     margin-top: 2em;
-    background: rgb(48, 63, 159);
-    background: linear-gradient(90deg, rgba(48, 63, 159, 1) 0%, rgba(63, 81, 181, 1) 35%, rgba(68, 138, 255, 1) 100%);
-}
-
-@media (max-width: 370px) {
-    .donde-estamos-extra{
-        flex-wrap: wrap;
-    }
-    
 }
