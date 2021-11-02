@@ -1,13 +1,10 @@
 .h2Equipo{
     text-align: center;
-    padding: 1.5rem 0rem;
+    padding: 1rem 0rem;
     font-size: 2.5rem;
 }
 
-.banner {
-    background: linear-gradient(to bottom,#303F9F, #3F51B5, #448AFF);
-    box-shadow: 0 4px 8px 0 rgb(73, 74, 83);
-}
+
 /***Información desarrolladores***/
 
 .paddingDev{
@@ -41,6 +38,11 @@
     background-color: #e7eaeb;
 }
 
+#socialMediaIcon i{
+   padding-right: 0.5rem;
+   font-size: 1.5rem;
+   color: var(--default-primary-color);
+}
 
 /***Sección valores del equipo***/
 
@@ -103,7 +105,9 @@
 }
 
 .professionalSpan{
+    font-size: 1.4rem;
     font-weight: 600;
     color: rgb(15, 15, 15);
     color: #f6f6f6;
 }
+
