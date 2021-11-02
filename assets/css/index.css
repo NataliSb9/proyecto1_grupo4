@@ -65,6 +65,32 @@ p {
     color: #757575;
 }
 
+.donde-estamos-extra {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
+.inner-extra-row {
+    flex-grow: 1;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.donde-estamos-extra h4 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 0.2em;
+    border-bottom: 4px solid #303F9F;
+}
+
+.donde-estamos-extra h3 {
+    color: black;
+}
+
 .map-imagen {
     min-height: 262px !important;
     padding: 0px;
@@ -90,35 +116,35 @@ p {
 /* ----------------------------------------- */
 /* QUIENES SOMOS */
 /* ------------------------------------------*/
-.quienes-somos{
+.quienes-somos {
     margin-top: 416px;
 }
 
 .quienes-somos__content {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    line-height: 30px;
 }
 
 .quienes-somos ul {
-  color: #757575;
+    color: #757575;
 }
 
 .quienes-somos__img img {
-  border-radius: 2%;
+    border-radius: 2%;
 }
 
 /* ----------------------------------------- */
 /* SERVICIOS */
 /* ------------------------------------------*/
 .servicios-icon {
-  font-size: 4em;
-  color: #3F51B5;
+    font-size: 4em;
+    color: #3F51B5;
 }
 
 .service-card {
-  text-align: center;
+    text-align: center;
 }
 
 
@@ -150,9 +176,9 @@ footer .row {
 }
 
 .social {
-  display: flex;
-  font-size: 2em;
-  justify-content: space-around;
+    display: flex;
+    font-size: 2em;
+    justify-content: space-around;
 }
 
 .ft-sec-1 {
@@ -201,4 +227,11 @@ footer .row {
 .empresas {
     background: rgb(48, 63, 159);
     background: linear-gradient(90deg, rgba(48, 63, 159, 1) 0%, rgba(63, 81, 181, 1) 35%, rgba(68, 138, 255, 1) 100%);
+}
+
+@media (max-width: 370px) {
+    .donde-estamos-extra{
+        flex-wrap: wrap;
+    }
+    
 }

@@ -33,7 +33,8 @@
 .aux {
     height: 416px;
     margin-bottom: -400px;
-    background: linear-gradient(to bottom,#303F9F, #3F51B5, #448AFF, white);
+    box-shadow: 0 4px 8px 0 rgb(73, 74, 83);
+    background: linear-gradient(to bottom,#303F9F, #3F51B5, #448AFF);
 }
 
 .c-container {
