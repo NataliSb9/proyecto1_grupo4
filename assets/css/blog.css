@@ -79,6 +79,12 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 992px) {
+  .noticia-secundaria {
+    margin-bottom: 4rem;
+  }
+}
+
 .noticia-secundaria-footer {
   color: var(--secondary-text-color);
 }
@@ -157,8 +163,4 @@
 /* ----------------------------------------- */
 /* MEDIA QUERIES COMUNES */
 /* ------------------------------------------*/
-@media screen and (max-width: 992px) {
-  .noticia-secundaria {
-    margin-top: 4rem;
-  }
-}
+
