@@ -13,14 +13,14 @@
 .pSegundo{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #e7eaeb;
+    background-color: var(--gray);
 }
 
 
 /***enlaces***/
 
 .enlaceProyectos{
-    color: #757575;
+    color: var(--secondary-text-color);
     font-weight: 600;
 }
 
