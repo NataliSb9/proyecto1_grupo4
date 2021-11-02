@@ -4,8 +4,28 @@
     font-size: 2.5rem;
 }
 
-
 /***Información desarrolladores***/
+#developers {
+  margin-bottom: 4rem;
+}
+
+#desarrollador1{
+  padding: 2.2rem 0;
+}
+
+#desarrollador2{
+  padding: 2.2rem 0;
+  background-color: #e7eaeb;
+}
+
+#desarrollador3{
+  padding: 2.2rem 0;
+}
+
+#desarrollador4{
+  padding: 2.2rem 0;
+  background-color: #e7eaeb;
+}
 
 .paddingDev{
     padding: 1rem 0;
@@ -14,28 +34,6 @@
 .pDev {
     line-height: 2rem;
     letter-spacing: 0.08rem;
-}
-
-#developers {
-    margin-bottom: 4rem;
-}
-
-#desarrollador1{
-    padding: 2.2rem 0;
-}
-
-#desarrollador2{
-    padding: 2.2rem 0;
-    background-color: #e7eaeb;
-}
-
-#desarrollador3{
-    padding: 2.2rem 0;
-}
-
-#desarrollador4{
-    padding: 2.2rem 0;
-    background-color: #e7eaeb;
 }
 
 #socialMediaIcon i{
