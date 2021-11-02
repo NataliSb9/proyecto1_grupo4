@@ -8,7 +8,7 @@ Para desarrollar este proyecto nos hemos ceñido a la metodología scrum y se ha
 
 ## Lo que vas a ver en este proyecto:
 Nuestro sitio web se compone de varias secciones:
--	Landing page: que a través de los materiales visuales y de texto definen la identidad de la empresa para que llame la atención de alguien que esté buscando servicios IT. Además cuenta con un hero section con un carrusel integrado.
+-	Landing page: a través de los materiales visuales y de texto se define la identidad de la empresa. Además cuenta con un hero section con un carousel integrado que es bastante vistoso.
 
 -	Proyectos: es la sección que muestra algunos de los proyectos donde ha intervenido la consultora para que el cliente que está interesado tenga una referencia.Esta sección cuenta con una barra de filtrado para poder buscar un proyecto, la barra de filtrado permite buscar los proyectos por categoría o por empresa, además hemos incluido una barra de búsqueda que con una implementación futura ayudará a buscar un proyecto concreto .A través de esta pagina podemos acceder a una descripción más detallada de los proyectos, donde se puede ver el feedback del cliente que ha contratado los servicios de inTalent.
 
