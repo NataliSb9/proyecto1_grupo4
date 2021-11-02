@@ -41,7 +41,7 @@
 /***Sección valores del equipo***/
 
 #values {
-    padding: 8rem 0;
+    padding: 2.5rem 0;
 }
 
 #value1 ,#value2, #value3  {
@@ -50,7 +50,7 @@
     height: 19rem;
     background-color:  #e7eaeb ;
     /*border: 0.2rem solid #3F51B5;*/
-    padding:2rem 1rem;
+    padding:1.5rem 1rem;
     
 }
 
