@@ -101,6 +101,15 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .filtro {
+        display: none;
+    }   
+    
+}
+
+
 @media all and (max-width:767px) {
     .bannerProyectos{
         display: flex;
@@ -117,6 +126,11 @@
         padding-bottom: 2vh;
     }
 
+    .filtro {
+        display: none;
+    }   
+
+    
 
 
     h1 {
