@@ -4,8 +4,30 @@
     font-size: 2.5rem;
 }
 
-
 /***Información desarrolladores***/
+#developers {
+  margin-bottom: 4rem;
+}
+
+#desarrollador1{
+  padding: 2.2rem 0;
+}
+
+#desarrollador2{
+    padding: 2.2rem 0;
+    background-color: var(--gray);
+}
+
+#desarrollador3{
+  padding: 2.2rem 0;
+}
+
+#desarrollador4{
+  padding: 2.2rem 0;
+  background-color: var(--gray);
+  padding: 2.2rem 0;
+  background-color: #e7eaeb;
+}
 
 .paddingDev{
     padding: 1rem 0;
@@ -14,28 +36,6 @@
 .pDev {
     line-height: 2rem;
     letter-spacing: 0.08rem;
-}
-
-#developers {
-    margin-bottom: 4rem;
-}
-
-#desarrollador1{
-    padding: 2.2rem 0;
-}
-
-#desarrollador2{
-    padding: 2.2rem 0;
-    background-color: #e7eaeb;
-}
-
-#desarrollador3{
-    padding: 2.2rem 0;
-}
-
-#desarrollador4{
-    padding: 2.2rem 0;
-    background-color: #e7eaeb;
 }
 
 #socialMediaIcon i{
@@ -54,7 +54,7 @@
     margin: 2rem 1rem;
     width: 22rem;
     height: 19rem;
-    background-color:  #e7eaeb ;
+    background-color:  var(--gray) ;
     /*border: 0.2rem solid #3F51B5;*/
     padding:1.5rem 1rem;
     
@@ -69,15 +69,11 @@
     font-size: 1.6rem;
     padding-top: 1rem;
     padding-bottom: 0.9rem;
-    color: rgb(22, 22, 22);
+    color: var(--primary-text-color);
 }
 
 
 /***Carousell***/
-
-#frasesSection{
-    padding-bottom: 7rem;
-}
 
 #frasesSection div h2{
    padding-top: 2rem;
@@ -101,13 +97,13 @@
 .pEquipoFrases {
     font-size: 1.2rem;
     line-height: 2.2rem;
-    color: #f6f6f6;
+    color: var(--divider-color);
 }
 
 .professionalSpan{
     font-size: 1.4rem;
     font-weight: 600;
     color: rgb(15, 15, 15);
-    color: #f6f6f6;
+    color: var(--divider-color);;
 }
 

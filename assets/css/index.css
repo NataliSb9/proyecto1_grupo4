@@ -16,8 +16,16 @@
   padding: 0px;
 }
 
+.accent-color {
+  background: #448aff;
+}
+
 .dark-primary-color {
   background: #303f9f;
+}
+
+.divider-color {
+  border-color: #bdbdbd;
 }
 
 .default-primary-color {
@@ -28,14 +36,6 @@
   background: #c5cae9;
 }
 
-.text-primary-color {
-  color: #ffffff;
-}
-
-.accent-color {
-  background: #448aff;
-}
-
 .primary-text-color {
   color: #212121;
 }
@@ -44,13 +44,21 @@
   color: #757575;
 }
 
-.divider-color {
-  border-color: #bdbdbd;
+.text-primary-color {
+  color: #ffffff;
 }
 
 /* ----------------------------------------- */
 /* HELPERS */
 /* ------------------------------------------*/
+.active a {
+  color: white !important;
+}
+
+.divider {
+  margin: 5em 0;
+}
+
 .infinite-wrapper {
   background: var(--divider-color);
   padding: 3rem 0;
@@ -59,14 +67,6 @@
 .infinite-wrapper--morado {
   background: var(--default-primary-color);
   padding: 3rem 0;
-}
-
-.divider {
-  margin: 5em 0;
-}
-
-.active a {
-  color: white !important;
 }
 
 /* ----------------------------------------- */
@@ -87,9 +87,29 @@
 /* ----------------------------------------- */
 /* HEADER */
 /* ------------------------------------------*/
-.navbar-header {
-  background-color: #3f51b5;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.donde-estamos-extra {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.donde-estamos-extra h4 {
+  font-size: 2em;
+  font-weight: 700;
+  padding-bottom: 0.2em;
+  border-bottom: 4px solid #303f9f;
+}
+
+.donde-estamos-extra h3 {
+  color: black;
+}
+
+.d-block {
+  max-height: 500px;
+}
+
+.full-container {
+  padding: 0px;
 }
 
 header a {
@@ -104,20 +124,6 @@ header .navbar-toggler {
   border-color: white !important;
 }
 
-.no-need-for-this {
-  margin: 1em;
-}
-
-p {
-  color: #757575;
-}
-
-.donde-estamos-extra {
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-}
-
 .inner-extra-row {
   flex-grow: 1;
   flex-basis: 100%;
@@ -125,17 +131,6 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 1em;
-}
-
-.donde-estamos-extra h4 {
-  font-size: 2em;
-  font-weight: 700;
-  padding-bottom: 0.2em;
-  border-bottom: 4px solid #303F9F;
-}
-
-.donde-estamos-extra h3 {
-  color: black;
 }
 
 .map-imagen {
@@ -152,27 +147,20 @@ p {
   justify-content: center;
 }
 
-.d-block {
-  max-height: 500px;
+.navbar-header {
+  background-color: #3f51b5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.full-container {
-  padding: 0px;
+.no-need-for-this {
+  margin: 1em;
+}
+
+p {
+  color: #757575;
 }
 
 /****Banner de proyectos*****/
-
-.mainTitleSection {
-  margin-bottom: 1.5rem;
-  padding-top: 2vh;
-  font-size: 3rem;
-}
-
-.subH1 {
-  color: white;
-  font-weight: 600;
-}
-
 .banner {
   display: flex;
   justify-content: flex-start;
@@ -193,6 +181,17 @@ div.banner-text {
   justify-content: flex-start;
   flex-flow: column wrap;
   padding-left: 0vw;
+}
+
+.mainTitleSection {
+  margin-bottom: 1.5rem;
+  padding-top: 2vh;
+  font-size: 3rem;
+}
+
+.subH1 {
+  color: white;
+  font-weight: 600;
 }
 
 /* ----------------------------------------- */
@@ -255,22 +254,44 @@ div.banner-text {
   }
 }
 
-
 /* ----------------------------------------- */
 /* FOOTER */
 /* ------------------------------------------*/
+footer {
+  margin-top: 5rem;
+  background-color: #212121;
+}
+
+footer p,footer
+h3,footer
+a {
+  color: white !important; 
+  text-decoration: none;
+}
+
+.empresas {
+  margin-top: 2em;
+  background: rgb(48, 63, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 63, 159, 1) 0%,
+    rgba(63, 81, 181, 1) 35%,
+    rgba(68, 138, 255, 1) 100%
+  );
+}
+
+@media (max-width: 370px) {
+  .donde-estamos-extra {
+    flex-wrap: wrap;
+  }
+}
+
 footer {
   background-color: #212121;
 }
 
 footer p,
-h3,
-a {
-  color: white;
-  text-decoration: none;
-}
-
-footer a:hover {
+h3, footer a:hover {
   color: #448aff;
 }
 
@@ -283,12 +304,6 @@ footer .row {
   border-top: 1px solid #757575;
   justify-content: center;
   align-items: baseline;
-}
-
-.social {
-  display: flex;
-  font-size: 2em;
-  justify-content: space-around;
 }
 
 .ft-sec-1 {
@@ -306,6 +321,12 @@ footer .row {
 
 .footer-logo {
   margin-bottom: 1em;
+}
+
+.social {
+  display: flex;
+  font-size: 2em;
+  justify-content: space-around;
 }
 
 .zoom {

@@ -1,36 +1,14 @@
-/****Color de fondo de los divs de los proyectos y distancia entre los mismos*****/
+/****Bloque de cada Proyecto*****/
 
-.pPrimero {
-    padding-top: 1rem;
-    padding-bottom: 1rem;   
-}
-
-.pTercero {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-.pSegundo{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #e7eaeb;
-}
-
-.banner-text{
+.banner-text {
     max-width: 530px;
 }
 
-.div-inner-search{
+.div-inner-search {
     max-height: 35px;
 }
 
-.icon-buscar{
-    font-size: 1.7em;
-    margin-top: -4px;
-    margin-right: 6px;
-}
-
-.dropdown .btn{
+.dropdown .btn {
     margin: 0px 1em;
     display: flex;
     align-items: center;
@@ -41,60 +19,88 @@
     margin-bottom: 1em;
 }
 
-.caret{
+.icon-buscar {
+    font-size: 1.7em;
+    margin-top: -4px;
+    margin-right: 6px;
+}
+
+.pPrimero {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pSegundo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--gray);
+}
+
+.pTercero {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+/***Filtrado***/
+
+.banner-filters {
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.caret {
     margin-left: 0.2em;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
     color: black;
     font-size: 0.8em;
     margin-left: 1em;
 }
 
-.dropdown-menu a:hover{
+.dropdown-menu a:hover {
     color: var(--accent-color) !important;
 }
 
-.banner-filters{
-    align-content: flex-end;
-    justify-content: flex-end;
-}
-
-.form-group{
+.form-group {
     margin-left: 1em;
 }
 
+
 /***enlaces***/
 
-.enlaceProyectos{
-    color: #757575;
+.enlaceProyectos {
+    color: var(--secondary-text-color);
     font-weight: 600;
 }
 
 @media all and (min-width:1300px) {
-    div.banner-text{
-        padding-left:0vw ;
+    div.banner-text {
+        padding-left: 0vw;
         margin-left: 16vw;
-        
+
     }
-    }
+}
 
 @media all and (max-width:992px) and (min-width:768) {
-div.banner-text{
-    text-align: center;
-    margin: 0 auto;
-    padding-left:0vw ;
-    margin-left: 0vw;
-    
-}
-}
-@media all and (max-width:767px) {
-    div.banner-text{
+    div.banner-text {
         text-align: center;
         margin: 0 auto;
-        
+        padding-left: 0vw;
+        margin-left: 0vw;
+
     }
-    h1{
+}
+
+@media all and (max-width:767px) {
+    div.banner-text {
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    h1 {
         font-size: 2rem;
     }
-    }
+}
