@@ -34,8 +34,8 @@
 }
 
 .pDev {
-    line-height: 2rem;
-    letter-spacing: 0.08rem;
+    line-height: 1.57rem;
+    letter-spacing: 0.07rem;
 }
 
 .socialMediaIcon i{
@@ -45,6 +45,18 @@
 }
 
 /***Sección valores del equipo***/
+
+.valueText{
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.valueText h3{
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    padding-bottom: 0.9rem;
+    color: var(--primary-text-color);
+}
 
 #values {
     padding: 2.5rem 0;
@@ -60,17 +72,6 @@
     
 }
 
-.valueText{
-    padding: 3rem 0;
-    text-align: center;
-}
-
-.valueText h3{
-    font-size: 1.6rem;
-    padding-top: 1rem;
-    padding-bottom: 0.9rem;
-    color: var(--primary-text-color);
-}
 
 
 /***Carousell***/
