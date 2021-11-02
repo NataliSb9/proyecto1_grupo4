@@ -22,8 +22,13 @@
   object-fit: cover;
 }
 
-.noticias-principales h3 {
+.removeDecoration a {
+  text-decoration: none;
+}
+
+.noticias-principales h3  {
   color: black;
+
 }
 
 .noticia-card-title {
