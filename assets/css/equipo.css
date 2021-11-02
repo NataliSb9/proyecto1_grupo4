@@ -1,10 +1,9 @@
-
-
 .h2Equipo{
     text-align: center;
-    padding: 1.5rem 0rem;
+    padding: 1rem 0rem;
     font-size: 2.5rem;
 }
+
 
 /***Información desarrolladores***/
 
@@ -17,13 +16,17 @@
     letter-spacing: 0.08rem;
 }
 
+#developers {
+    margin-bottom: 4rem;
+}
+
 #desarrollador1{
     padding: 2.2rem 0;
 }
 
 #desarrollador2{
     padding: 2.2rem 0;
-    background-color: rgb(231, 234, 235);
+    background-color: #e7eaeb;
 }
 
 #desarrollador3{
@@ -32,23 +35,29 @@
 
 #desarrollador4{
     padding: 2.2rem 0;
-    background-color: rgb(231, 234, 235);
+    background-color: #e7eaeb;
 }
 
+#socialMediaIcon i{
+   padding-right: 0.5rem;
+   font-size: 1.5rem;
+   color: var(--default-primary-color);
+}
 
 /***Sección valores del equipo***/
 
 #values {
-    padding: 8rem 0;
+    padding: 2.5rem 0;
 }
 
 #value1 ,#value2, #value3  {
     margin: 2rem 1rem;
     width: 22rem;
     height: 19rem;
-    background-color:  rgb(231, 234, 235) ;
+    background-color:  #e7eaeb ;
     /*border: 0.2rem solid #3F51B5;*/
-    padding:2rem 1rem;
+    padding:1.5rem 1rem;
+    
 }
 
 .valueText{
@@ -76,7 +85,7 @@
 }
 
 #frasesCarousell{
-    background-color:  rgb(231, 234, 235);
+    background: linear-gradient(90deg, rgba(48, 63, 159, 1) 0%, rgba(63, 81, 181, 1) 35%, rgba(68, 138, 255, 1) 100%);
 }
 
 #frasesEquipo{
@@ -92,9 +101,13 @@
 .pEquipoFrases {
     font-size: 1.2rem;
     line-height: 2.2rem;
+    color: #f6f6f6;
 }
 
 .professionalSpan{
+    font-size: 1.4rem;
     font-weight: 600;
     color: rgb(15, 15, 15);
+    color: #f6f6f6;
 }
+
