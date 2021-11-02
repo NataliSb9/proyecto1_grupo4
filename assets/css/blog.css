@@ -1,8 +1,8 @@
 /* ----------------------------------------- */
 /* FONTS */
 /* ------------------------------------------*/
-.noticia-card-title h3  {
-  font-size: 1.3rem
+.noticia-card-title h3 {
+  font-size: 1.3rem;
 }
 
 .noticia-secundaria-title h3 {
@@ -10,7 +10,7 @@
 }
 
 .evento-body__title h3 {
-  font-size: 1.3rem
+  font-size: 1.3rem;
 }
 
 /* ----------------------------------------- */
@@ -21,7 +21,7 @@
 }
 
 .noticia-card-title {
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .notica-card {
@@ -81,7 +81,12 @@
 
 @media screen and (max-width: 992px) {
   .noticia-secundaria {
-    margin-bottom: 4rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .noticia-secundaria:not(:last-child) {
+    border-bottom: 1px solid var(--light-primary-color);
   }
 }
 
@@ -116,7 +121,13 @@
 /* EVENTOS */
 /* ------------------------------------------*/
 .evento {
-  margin-bottom: 5rem;
+  border-bottom: 1px solid var(--light-primary-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.evento-first {
+  padding-top: 0;
 }
 
 .evento-img img {
@@ -163,4 +174,3 @@
 /* ----------------------------------------- */
 /* MEDIA QUERIES COMUNES */
 /* ------------------------------------------*/
-
