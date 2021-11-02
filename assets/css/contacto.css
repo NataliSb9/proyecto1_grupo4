@@ -1,7 +1,6 @@
 /****/
 
 body{
-    background-image: url(../img/Contactanos/contacto-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,8 +23,8 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 2 em !important;
-    padding-right: 2 em !important;
+    padding-left: 4em !important;
+    padding-right: 4em !important;
     justify-content: center;
 }
 
@@ -67,5 +66,19 @@ body{
 @media (max-width: 992px){
     .column-1{
         display: none;
+    }
+    .column-2{
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 516px){
+    .column-2{
+        padding-left:1em !important;
+        padding-right: 1em !important;
+    }
+
+    .column-2 h1{
+        font-size: 2em;
     }
 }
