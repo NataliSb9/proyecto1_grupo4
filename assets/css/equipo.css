@@ -15,6 +15,10 @@
     letter-spacing: 0.08rem;
 }
 
+#developers {
+    margin-bottom: 4rem;
+}
+
 #desarrollador1{
     padding: 2.2rem 0;
 }
@@ -47,6 +51,7 @@
     background-color:  #e7eaeb ;
     /*border: 0.2rem solid #3F51B5;*/
     padding:2rem 1rem;
+    
 }
 
 .valueText{
@@ -66,15 +71,17 @@
 
 #frasesSection{
     padding-bottom: 7rem;
+    
 }
 
 #frasesSection div h2{
    padding-top: 2rem;
    padding-bottom: 0.5rem;
+   
 }
 
 #frasesCarousell{
-    background-color:  #e7eaeb;
+    background-color:  #303F9F;
 }
 
 #frasesEquipo{
@@ -90,9 +97,11 @@
 .pEquipoFrases {
     font-size: 1.2rem;
     line-height: 2.2rem;
+    color: #f6f6f6;
 }
 
 .professionalSpan{
     font-weight: 600;
     color: rgb(15, 15, 15);
+    color: #f6f6f6;
 }
