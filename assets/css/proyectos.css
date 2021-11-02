@@ -1,5 +1,9 @@
 /****Bloque de cada Proyecto*****/
 
+.bannerProyectos{
+    padding:0 5vw 0 5vw;
+}
+
 .banner-text {
     max-width: 530px;
 }
@@ -20,6 +24,7 @@
 }
 
 .icon-buscar {
+    color: white;
     font-size: 1.7em;
     margin-top: -4px;
     margin-right: 6px;
@@ -84,6 +89,9 @@
 }
 
 @media all and (max-width:992px) and (min-width:768) {
+    
+  
+
     div.banner-text {
         text-align: center;
         margin: 0 auto;
@@ -94,11 +102,22 @@
 }
 
 @media all and (max-width:767px) {
+    .bannerProyectos{
+        display: flex;
+        flex-flow: wrap column;
+    }
+    
     div.banner-text {
         text-align: center;
         margin: 0 auto;
 
     }
+    div.banner-filters{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+
 
     h1 {
         font-size: 2rem;
