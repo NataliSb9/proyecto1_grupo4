@@ -26,7 +26,7 @@
 
 #desarrollador2{
     padding: 2.2rem 0;
-    background-color: #e7eaeb;
+    background-color: var(--gray);
 }
 
 #desarrollador3{
@@ -35,7 +35,7 @@
 
 #desarrollador4{
     padding: 2.2rem 0;
-    background-color: #e7eaeb;
+    background-color: var(--gray);
 }
 
 #socialMediaIcon i{
@@ -54,7 +54,7 @@
     margin: 2rem 1rem;
     width: 22rem;
     height: 19rem;
-    background-color:  #e7eaeb ;
+    background-color:  var(--gray) ;
     /*border: 0.2rem solid #3F51B5;*/
     padding:1.5rem 1rem;
     
@@ -69,7 +69,7 @@
     font-size: 1.6rem;
     padding-top: 1rem;
     padding-bottom: 0.9rem;
-    color: rgb(22, 22, 22);
+    color: var(--primary-text-color);
 }
 
 
@@ -97,13 +97,13 @@
 .pEquipoFrases {
     font-size: 1.2rem;
     line-height: 2.2rem;
-    color: #f6f6f6;
+    color: var(--divider-color);
 }
 
 .professionalSpan{
     font-size: 1.4rem;
     font-weight: 600;
     color: rgb(15, 15, 15);
-    color: #f6f6f6;
+    color: var(--divider-color);;
 }
 
