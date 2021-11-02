@@ -47,6 +47,15 @@ h3.titleproyres {
     font-size: 2rem;
 }
 
+img.imgvectorP{
+    width: 35vw;
+    
+}
+div.imgvectorP{
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 
 @media all and (max-width:768px) {
