@@ -1,0 +1,58 @@
+section.descripcionP {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+
+p.pStyleP {
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+div.solucionP {
+    background-color: rgb(238, 238, 238);
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+
+}
+
+section.SectionProyects {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+
+h2.titleproy {
+    font-weight: 200;
+    letter-spacing: 0.08rem;
+    padding-bottom: 4vh;
+}
+
+h3.titleproy {
+    font-weight: 400;
+    color: black;
+    font-size: 3rem;
+}
+
+h3.titleproyres {
+    font-size: 2rem;
+}
+
+@media all and (max-width:768px) {
+    iframe.videolink {
+        text-align: center;
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+}
+
+@media all and (min-width:768px) and (max-width:1200px) {
+    iframe.videolink {
+        width: 50vw;
+    }
+
+}

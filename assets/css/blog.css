@@ -1,0 +1,166 @@
+/* ----------------------------------------- */
+/* FONTS */
+/* ------------------------------------------*/
+.noticia-card-title h3  {
+  font-size: 1.3rem
+}
+
+.noticia-secundaria-title h3 {
+  font-size: 1.2rem;
+}
+
+.evento-body__title h3 {
+  font-size: 1.3rem
+}
+
+/* ----------------------------------------- */
+/* NOTICIAS PRINCIPALES */
+/* ------------------------------------------*/
+.noticias-principales h3 {
+  color: black;
+}
+
+.noticia-card-title {
+  margin-top: .5em;
+}
+
+.notica-card {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.noticia-card-body p {
+  color: var(--primary-text-color);
+}
+
+.noticia-card-footer p {
+  color: var(--secondary-text-color);
+  margin-top: auto;
+}
+
+.noticia-card-footer {
+  margin-top: auto;
+}
+
+.noticia-card-footer p {
+  margin: 0;
+  display: inline;
+}
+
+.blog-img img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.noticia-card-footer__autor {
+  text-decoration: underline;
+}
+
+.noticia-card-footer__date::before,
+.noticia-card-footer__date::after {
+  content: "-";
+}
+
+/* ----------------------------------------- */
+/* NOTICIAS SECUNDARIAS */
+/* ------------------------------------------*/
+.noticias-secundarias h3 {
+  color: black;
+}
+
+.noticia-secundaria-body p {
+  color: var(--primary-text-color);
+}
+
+.noticia-secundaria {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+  .noticia-secundaria {
+    margin-bottom: 4rem;
+  }
+}
+
+.noticia-secundaria-footer {
+  color: var(--secondary-text-color);
+}
+
+.noticia-secundaria-footer {
+  margin-top: auto;
+}
+
+.noticia-secundaria-footer__autor {
+  text-decoration: underline;
+}
+
+.noticia-secundaria-footer__date::before,
+.noticia-secundaria-footer__date::after {
+  content: "-";
+}
+
+.noticia-secundaria-footer p {
+  margin: 0;
+}
+
+.noticia-secundaria-img img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ----------------------------------------- */
+/* EVENTOS */
+/* ------------------------------------------*/
+.evento {
+  margin-bottom: 5rem;
+}
+
+.evento-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.eventos h3 {
+  color: black;
+}
+
+.evento-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.evento-body__resume p {
+  color: var(--primary-text-color);
+}
+
+.evento-footer {
+  color: var(--secondary-text-color);
+}
+
+.evento-footer p {
+  margin: 0;
+}
+
+.evento-footer {
+  margin-top: auto;
+}
+
+.evento-footer__autor {
+  text-decoration: underline;
+}
+
+.evento-footer__date::before,
+.evento-footer__date::after {
+  content: "-";
+}
+
+/* ----------------------------------------- */
+/* MEDIA QUERIES COMUNES */
+/* ------------------------------------------*/
+
