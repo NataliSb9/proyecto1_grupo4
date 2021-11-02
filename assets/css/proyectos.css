@@ -1,100 +1,96 @@
 /****Color de fondo de los divs de los proyectos y distancia entre los mismos*****/
+.banner-text {
+  max-width: 530px;
+}
+
+.banner-filters {
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+
+.caret {
+  margin-left: 0.2em;
+}
+
+.div-inner-search {
+  max-height: 35px;
+}
+
+.dropdown .btn {
+  margin: 0px 1em;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 110px;
+  padding: 0.4em 1em;
+  margin-bottom: 1em;
+}
+
+.dropdown-menu a {
+  color: black;
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
+.dropdown-menu a:hover {
+  color: var(--accent-color) !important;
+}
+
+.form-group {
+  margin-left: 1em;
+}
+
+.icon-buscar {
+  font-size: 1.7em;
+  margin-top: -4px;
+  margin-right: 6px;
+}
 
 .pPrimero {
-    padding-top: 1rem;
-    padding-bottom: 1rem;   
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pTercero {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-.pSegundo{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #e7eaeb;
-}
-
-.banner-text{
-    max-width: 530px;
-}
-
-.div-inner-search{
-    max-height: 35px;
-}
-
-.icon-buscar{
-    font-size: 1.7em;
-    margin-top: -4px;
-    margin-right: 6px;
-}
-
-.dropdown .btn{
-    margin: 0px 1em;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    width: 110px;
-    padding: 0.4em 1em;
-    margin-bottom: 1em;
-}
-
-.caret{
-    margin-left: 0.2em;
-}
-
-.dropdown-menu a{
-    color: black;
-    font-size: 0.8em;
-    margin-left: 1em;
-}
-
-.dropdown-menu a:hover{
-    color: var(--accent-color) !important;
-}
-
-.banner-filters{
-    align-content: flex-end;
-    justify-content: flex-end;
-}
-
-.form-group{
-    margin-left: 1em;
+.pSegundo {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #e7eaeb;
 }
 
 /***enlaces***/
 
-.enlaceProyectos{
-    color: #757575;
-    font-weight: 600;
+.enlaceProyectos {
+  color: #757575;
+  font-weight: 600;
 }
 
-@media all and (min-width:1300px) {
-    div.banner-text{
-        padding-left:0vw ;
-        margin-left: 16vw;
-        
-    }
-    }
+@media all and (min-width: 1300px) {
+  div.banner-text {
+    padding-left: 0vw;
+    margin-left: 16vw;
+  }
+}
 
-@media all and (max-width:992px) and (min-width:768) {
-div.banner-text{
+@media all and (max-width: 992px) and (min-width: 768) {
+  div.banner-text {
     text-align: center;
     margin: 0 auto;
-    padding-left:0vw ;
+    padding-left: 0vw;
     margin-left: 0vw;
-    
+  }
 }
+@media all and (max-width: 767px) {
+  div.banner-text {
+    text-align: center;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 2rem;
+  }
 }
-@media all and (max-width:767px) {
-    div.banner-text{
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    h1{
-        font-size: 2rem;
-    }
-    }

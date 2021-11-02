@@ -1,79 +1,73 @@
-section.descripcionP {
-    background-color: rgb(238, 238, 238);
-    width: 100%;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-
-}
-
-p.pStyleP {
-    line-height: 2rem;
-    letter-spacing: 0.08rem;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
-
-p.bannerpd{
-    font-weight: 200;
-    line-height: 2rem;
-    letter-spacing: 0.08rem;
-}
-
 div.solucionP {
-    background-color: rgb(238, 238, 238);
-    padding-top: 12vh;
-    padding-bottom: 12vh;
-
+  background-color: rgb(238, 238, 238);
+  padding-top: 12vh;
+  padding-bottom: 12vh;
 }
 
-section.SectionProyects {
-    padding-top: 12vh;
-    padding-bottom: 12vh;
+div.imgvectorP {
+  text-align: center;
+  margin: 0 auto;
+}
+div.videolink {
+  text-align: center;
+  margin: 0 auto;
 }
 
 h2.titleproy {
-    font-weight: 200;
-    letter-spacing: 0.08rem;
-    padding-bottom: 4vh;
+  font-weight: 200;
+  letter-spacing: 0.08rem;
+  padding-bottom: 4vh;
 }
 
 h3.titleproy {
-    font-weight: 400;
-    color: black;
-    font-size: 3rem;
+  font-weight: 400;
+  color: black;
+  font-size: 3rem;
 }
 
 h3.titleproyres {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-img.imgvectorP{
-    width: 35vw;
-    
+img.imgvectorP {
+  width: 35vw;
 }
-div.imgvectorP{
+
+p.pStyleP {
+  line-height: 2rem;
+  letter-spacing: 0.08rem;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+p.bannerpd {
+  font-weight: 200;
+  line-height: 2rem;
+  letter-spacing: 0.08rem;
+}
+
+section.descripcionP {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+section.SectionProyects {
+  padding-top: 12vh;
+  padding-bottom: 12vh;
+}
+
+@media all and (max-width: 768px) {
+  iframe.videolink {
     text-align: center;
     margin: 0 auto;
-}
-div.videolink{
-    text-align: center;
-    margin: 0 auto;
+    width: 80vw;
+  }
 }
 
-
-
-@media all and (max-width:768px) {
-    iframe.videolink {
-        text-align: center;
-        margin: 0 auto;
-        width: 80vw;
-    }
-
-}
-
-@media all and (min-width:768px) and (max-width:1200px) {
-    iframe.videolink {
-        width: 50vw;
-    }
-
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  iframe.videolink {
+    width: 50vw;
+  }
 }

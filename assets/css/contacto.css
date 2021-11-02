@@ -1,71 +1,72 @@
 /****/
 
-body{
-    background-image: url(../img/Contactanos/contacto-bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.column-1 {
-    height: 600px;
-    border-radius: 8px 0% 0% 8px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: linear-gradient(90deg, #303F9F 0%, #3F51B5 35%, #007bff 100%);
-    align-items: center;
-    justify-content: center;
-}
-
-.column-2 {
-    height: 600px;
-    background-color: white;
-    border-radius: 0% 8px 8px 0%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 2 em !important;
-    padding-right: 2 em !important;
-    justify-content: center;
-}
-
-.formulario {
-    height: 600px;
-    border-radius: 8px;
-    margin: 5em 2em;
-    min-height: 100px;
-}
-
-.card-1 {
-    box-shadow: 0 1px 3px rgba(71, 71, 71, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-}
-
-.card-1:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.row {
-    margin: 0px !important;
+body {
+  background-image: url(../img/Contactanos/contacto-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btn-ale {
-    margin-top: 1em;
-    height: 60px;
+  margin-top: 1em;
+  height: 60px;
+}
+
+.column-1 {
+  height: 600px;
+  border-radius: 8px 0% 0% 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: linear-gradient(90deg, #303f9f 0%, #3f51b5 35%, #007bff 100%);
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .column-1 {
+    display: none;
+  }
+}
+
+.column-2 {
+  height: 600px;
+  background-color: white;
+  border-radius: 0% 8px 8px 0%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 2 em !important;
+  padding-right: 2 em !important;
+  justify-content: center;
 }
 
 .column-2 h1 {
-    color: #303F9F;
-    font-size: 3.5em;
-    font-weight: 700;
+  color: #303f9f;
+  font-size: 3.5em;
+  font-weight: 700;
 }
 
-.checkbox-ale{
-    margin-top: 1em;
+.card-1 {
+  box-shadow: 0 1px 3px rgba(71, 71, 71, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-@media (max-width: 992px){
-    .column-1{
-        display: none;
-    }
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
+.checkbox-ale {
+  margin-top: 1em;
+}
+
+.formulario {
+  height: 600px;
+  border-radius: 8px;
+  margin: 5em 2em;
+  min-height: 100px;
+}
+
+.row {
+  margin: 0px !important;
+}
+
