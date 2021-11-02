@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="../assets/css/index.css">
+  <title>Blog</title>
+</head>
+
+<body class="links-decoration">
+  <header>
+    <nav class="navbar navbar-header navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand " href="./"><img class="img-logo-intalent" src="../assets/img/index/logo-small-white.png"
+            alt="logo-intalent"></a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item nav-item-header">
+              <a class="nav-link" href="./">Home</a>
+            </li>
+            <li class="nav-item nav-item-header">
+              <a class="nav-link" href="./proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item nav-item-header">
+              <a class="nav-link" href="./equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item nav-item-header">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item nav-item-header active">
+              <a class="nav-link" href="./blog.html">Noticias</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="banner-text container d-flex flex-wrap">
+        <h1 class="mainTitleSection">Blog</h1>
+        <p class="subH1">Ponte al día de las últimas novedades en tecnología</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="divider"></div>
+  <main>
+
+    <!-- /////////////////////////
+      ÚLTIMAS NOTICIAS
+////////////////////////////-->
+    <div class="container noticias-principales">
+      <h2>Últimas noticias</h2>
+      <div class="row">
+        <div class="col-md-6 notica-card">
+          <a href="#">
+            <div class="main blog-img">
+              <img src="../assets/img/blog/copilot.jpeg" class="img-fluid" alt="Imagen de una pantalla con códgigo"
+                title="GitHub copilot">
+            </div>
+            <div class="noticia-card-title">
+              <h3>GitHub Copilot y la polémica con el copyright</h3>
+            </div>
+          </a>
+          <div class="noticia-card-body">
+            <p>¿Protegen las leyes del copyright esta práctica? ¿Pueden los programadores evitar que su código sea
+              utilizado por GitHub Copilot o incluso reclamar? Ante estas preguntas existen distintas posiciones. </p>
+          </div>
+          <div class="noticia-card-footer">
+            <a href="./equipo.html#desarrollador4">
+              <p class="noticia-card-footer__autor">Sergio Martínez</p>
+            </a>
+            <p class="noticia-card-footer__date">Dic 03, 2021</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 notica-card">
+          <a href="#">
+
+            <div class="main blog-img">
+              <img src="../assets/img/blog/devtools.png" class="img-fluid" alt="Imagen con devTools de Chrome"
+                title="Novedades de DevTools">
+            </div>
+            <div class="noticia-card-title">
+              <h3>Qué hay de nuevo en DevTools (Chrome 93)</h3>
+            </div>
+          </a>
+          <div class="noticia-card-body">
+            <p>¡Ya tenemos disponible una nueva versión de Google Chrome! Y con ello, un montón de novedades para
+              mejorar las herramientas de desarrollo.</p>
+          </div>
+          <div class="noticia-card-footer">
+            <a href="./equipo.html#desarrollador3">
+              <p class="noticia-card-footer__autor">Francisco Javier García</p>
+            </a>
+            <p class="noticia-card-footer__date">Dec 12, 2021</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 notica-card">
+          <a href="#">
+            <div class="main blog-img">
+              <img src="../assets/img/blog/tendencias.jpg" class="img-fluid"
+                alt="Ordenador portátil sobre fondo amarillo" title="Tendencias de JavaScript">
+            </div>
+            <div class="noticia-card-title">
+              <h3>Tendencias de JavaScript para este 2020</h3>
+            </div>
+          </a>
+          <div class="noticia-card-body">
+            <p>Si eres de los que piensa que en este 2020 JavaScript va a perder el liderazgo que ha mantenido durante 7
+              años consecutivos entre los programadores, deberías reconsiderar tu postura. Con un rotundo 67.8%, JS
+              continúa siendo con mucho el lenguaje de programación preferido entre los desarrolladores a nivel mundial.
+            </p>
+          </div>
+          <div class="noticia-card-footer">
+            <a href="./equipo.html#desarrollador1">
+              <p class="noticia-card-footer__autor">Natalia Sainz</p>
+            </a>
+            <p class="noticia-card-footer__date">Nov 27, 2021</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 notica-card">
+          <a href="#">
+            <div class="main blog-img">
+              <img src="../assets/img/blog/flutter.jpeg" class="img-fluid"
+                alt="Varios dispositivos portátiles mostrando la aplicación de Flutter" title="Aplicación de Flutter">
+            </div>
+            <div class="noticia-card-title">
+              <h3>Construyendo una aplicación con Flutter</h3>
+            </div>
+          </a>
+          <div class="noticia-card-body">
+            <p>Vamos a construir una pequeña aplicación en la que veremos cómo se comportan los componentes en
+              diferentes sistemas operativos, aprenderemos a utilizar los estados de Flutter y cómo navegar entre
+              diferentes pantallas </p>
+          </div>
+          <div class="noticia-card-footer">
+            <a href="equipo.html#desarrollador2">
+              <p class="noticia-card-footer__autor">Alexis Bermúdez</p>
+            </a>
+            <p class="noticia-card-footer__date">Nov 25, 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="divider"></div>
+
+  <!-- /////////////////////////
+      NOTICIAS SECUNDARIAS
+////////////////////////////-->
+  <section>
+    <div class="infinite-wrapper">
+      <div class="container noticias-secundarias">
+        <h2>Te puede interesar</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 noticia-secundaria">
+            <a href="#">
+              <div class="noticia-secundaria-img">
+                <img src="../assets/img/blog/apple.jpeg" class="img-fluid"
+                  alt="Dispositivos Apple, portátil, reloj y móvil" title="Universo Apple">
+              </div>
+              <div class="noticia-secundaria-title">
+                <h3>La forma más económica y ecológica de entrar en el universo Apple</h3>
+              </div>
+            </a>
+            <div class="noticia-secundaria-body">
+              <p>Independientemente de la generación de la que estemos hablando, se ha convertido en un objeto de culto
+                del que nos gusta presumir.</p>
+            </div>
+            <div class="noticia-secundaria-footer">
+              <a href="./equipo.html#desarrollador4">
+                <p class="noticia-secundaria-footer__autor">Sergio Martínez</p>
+              </a>
+              <p class="noticia-secundaria-footer__date">Nov 25, 2020</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 noticia-secundaria">
+            <a href="#">
+              <div class="noticia-secundaria-img">
+                <img src="../assets/img/blog/grafica.jpeg" class="img-fluid" alt="Imagen de una tarjeta gáfica de Nvidia"
+                  title="Calidad de tarjetas gráfica GeForce">
+              </div>
+              <div class="noticia-secundaria-title">
+                <h3>Experiencia de usuario la calidad de fabricación de las GeForce RTX 30</h3>
+              </div>
+            </a>
+            <div class="noticia-secundaria-body">
+              <p> la experiencia de juego no la enmarca solo nuestro "rendimiento" jugando: cada parte del hardware
+                cambia (literalmente) el resultado.</p>
+            </div>
+            <div class="noticia-secundaria-footer">
+              <a href="./equipo.html#desarrollador2">
+                <p class="noticia-secundaria-footer__autor">Alexis Bermúdez</p>
+              </a>
+              <p class="noticia-secundaria-footer__date">Oct 30, 2021</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 noticia-secundaria">
+            <a href="#">
+              <div class="noticia-secundaria-img">
+                <img src="../assets/img/blog/programacion.jpeg" class="img-fluid"
+                  alt="Profesor enseñando a una niña un ordenador" title="Promoción de la programación">
+              </div>
+              <div class="noticia-secundaria-title">
+                <h3>La organización de referencia para promover la programación</h3>
+              </div>
+            </a>
+            <div class="noticia-secundaria-body">
+              <p>España tiene un nuevo aliado para enseñar programación a los niños. Code.org, la organización sin ánimo
+                de lucro referencia a nivel mundial en esta tarea ha anunciado hoy su llegada a España.
+              </p>
+            </div>
+            <div class="noticia-secundaria-footer">
+              <a href="./equipo.html#desarrollador1">
+                <p class="noticia-secundaria-footer__autor">Natalia Sainz</p>
+              </a>
+              <p class="noticia-secundaria-footer__date">Jun 20, 2021</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 noticia-secundaria">
+            <a href="#">
+              <div class="noticia-secundaria-img">
+                <img src="../assets/img/blog/ataques.jpeg" class="img-fluid"
+                  alt="Tableta en la msea junto a taza de café y un móvil" title="Seguridad en dispositivos móviles">
+              </div>
+              <div class="noticia-secundaria-title">
+                <h3>Funcionalidades de seguridad que valorarán los usuarios de móviles</h3>
+              </div>
+            </a>
+            <div class="noticia-secundaria-body">
+              <p>Cuando se les pregunta cuáles son los fallos de seguridad que más les preocupan, el top lo ocupa el
+                robo
+                de contraseñas, seguido de todas aquellas páginas o emails falsos que puedan acceder por error.</p>
+            </div>
+            <div class="noticia-secundaria-footer">
+              <a href="./equipo.html#desarrollador3">
+                <p class="noticia-secundaria-footer__autor">Francisco Javier García</p>
+              </a>
+              <p class="noticia-secundaria-footer__date">Ene 01, 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- /////////////////////////
+          EVENTOS
+  ////////////////////////////-->
+  <div class="divider"></div>
+  <section class="eventos">
+    <div class="container">
+      <h2>Eventos</h2>
+      <div class="row">
+        <div class="col-12 evento evento-first">
+          <div class="row">
+            <div class="col-sm-4 ">
+              <div class="evento-img">
+                <a href="#">
+                  <img src="../assets/img/blog/david-bonilla.jpg" class="img-fluid"
+                    alt="Dos personas en una sala de sonido de producción" title="Evento de David Bonilla">
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-8 ">
+              <div class="evento-body">
+                <div class="evento-body__title">
+                  <a href="#">
+                    <h3>Tarugoconf, el evento de nuestro David Bonilla que bate récords.</h3>
+                  </a>
+                </div>
+                <div class="evento-body__resume">
+                  <p>La Tarugoconf, celebrada del 21 al 23 de octubre de 2021, es uno de los principales eventos de
+                    tecnología de España y un espacio de referencia para la comunidad técnica. El objetivo de este
+                    evento organizado por David Bonilla, CEO de Sngular Talent, es fomentar el diálogo y el debate sobre
+                    el diseño, la construcción y la comercialización de productos y servicios digitales.</p>
+                </div>
+                <div class="evento-footer">
+                  <a href="./equipo.html#desarrollador1">
+                    <p class="evento-footer__autor">Natalia Sainz</p>
+                  </a>
+                  <p class="evento-footer__date">Nov 25, 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 evento">
+          <div class="row">
+            <div class="col-sm-4 ">
+              <a href="#">
+                <div class="evento-img">
+                  <img src="../assets/img/blog/femtech.png" class="img-fluid"
+                    alt="Cartel de FemTech. Muestra la duración del 24 al 25 de diciembre." title="FemTechConf evento">
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-8 ">
+              <div class="evento-body">
+                <div class="evento-body__title">
+                  <a href="#">
+                    <h3>FemTechConf, el evento internacional de mujeres tech.</h3>
+                  </a>
+                </div>
+                <div class="evento-body__resume">
+                  <p>Las mujeres tech vienen pisando fuerte, es un hecho aunque los números parece contradecirlo. Solo
+                    un 23% de las personas que trabajan en el sector TI son mujeres y de las personas matriculadas en
+                    carreras STEM solo un 12% son mujeres. Nos encanta apoyar y estar en eventos que trabajan para dar
+                    mayor visibilidad a la mujer dentro de nuestro sector.
+                  </p>
+                </div>
+                <div class="evento-footer">
+                  <a href="./equipo.html#desarrollador3">
+                    <p class="evento-footer__autor">Francisco Javier García</p>
+                  </a>
+                  <p class="evento-footer__date">Jun 15, 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 evento">
+          <div class="row">
+            <div class="col-sm-4 ">
+              <a href="#">
+                <div class="evento-img">
+                  <img src="../assets/img/blog/kairos.jpeg" class="img-fluid"
+                    alt="Dos chicas en en el evento. Una le hace una foto a la otra con el fondo de Kairos"
+                    title="Evento Kairos">
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-8 ">
+              <div class="evento-body">
+                <div class="evento-body__title">
+                  <a href="#">
+                    <h3>Kairós DS en el JSDayES 2018</h3>
+                  </a>
+                </div>
+                <div class="evento-body__resume">
+                  <p>Muchos del equipo de Kairós DS fueron los que de una manera u otra quisieron participar en este
+                    evento, desde formando parte de la organización, voluntarios, ponentes, Talento, Marca… ninguno se
+                    lo quiso perder.</p>
+                  <p>Esta parte a mí personalmente me ha parecido genial, ya que después del curso, en el proyecto que
+                    estoy actualmente he visto situaciones donde poder aplicar programación funcional y nos evitaría
+                    muchos futuros bugs.</p>
+                </div>
+                <div class="evento-footer">
+                  <a href="./equipo.html#desarrollador2">
+                    <p class="evento-footer__autor">Alexis Bermúdez</p>
+                  </a>
+                  <p class="evento-footer__date">Nov 25, 2016</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 evento">
+          <div class="row">
+            <div class="col-sm-4 ">
+              <a href="#">
+                <div class="evento-img">
+                  <img src="../assets/img/blog/innovacion.png" class="img-fluid"
+                    alt="Cartel de la semana de la ciencia. Muestra la inscripción desde el 18 de octubre."
+                    title="Semana de la ciencia.">
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-8 ">
+              <div class="evento-body">
+                <div class="evento-body__title">
+                  <a href="#">
+                    <h3>XXI Semana de la Ciencia y la Innovación de Madrid</h3>
+                  </a>
+                </div>
+                <div class="evento-body__resume">
+                  <p>La Universidad Rey Juan Carlos organiza más de un centenar de actividades para la Semana de la
+                    Ciencia y la Innovación, coordinada en la Comunidad de Madrid por la Fundación para el Conocimiento
+                    madri+d. </p>
+                  <p>Los principales objetivos de este evento de divulgación científica son atraer a nuevos públicos, en
+                    principio alejados de la ciencia, implicar a nuevos agentes e instituciones en el proceso científico
+                    y visibilizar la ciencia</p>
+                </div>
+                <div class="evento-footer">
+                  <a href="./equipo.html#desarrollador4">
+                    <p class="evento-footer__autor">Sergio Martínez</p>
+                  </a>
+                  <p class="evento-footer__date">Ago 20, 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row footer-top">
+        <div class="col-sm-12 col-md-5 col-lg-4 ft-sec-1">
+          <div>
+            <img class="footer-logo" src="../assets/img/index/logo-small-white.png" title="intalent logo" alt="logo de intalent consultory blanco">
+            <div class="social">
+              <a class="img-social" href="#">
+                <span class="footer-icon">
+                  <i class="fab fa-facebook-square"></i>
+                </span>
+              </a>
+              <a class="img-social" href="#">
+                <span class="footer-icon">
+                  <i class="fab fa-twitter-square"></i>
+                </span>
+              </a>
+              <a class="img-social" href="#">
+                <span class="footer-icon">
+                  <i class="fab fa-linkedin"></i>
+                </span>
+              </a>
+              <a class="img-social" href="#">
+                <span class="footer-icon">
+                  <i class="fab fa-instagram-square"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col ft-sec">
+          <h3 class="footer-pais">España</h3>
+          <p class="footer-direccion">Calle Matamoros, 34.</p>
+          <a href="#" class="footer-postal">28041 Madrid</a>
+        </div>
+        <div class="col ft-sec">
+          <h3 class="footer-pais">Cuba</h3>
+          <p class="footer-direccion">Infanta y San Lázaro, 12</p>
+          <a href="#" class="footer-postal">36400 La Habana</a>
+        </div>
+        <div class="col ft-sec">
+          <h3 class="footer-pais">Alemania</h3>
+          <p class="footer-direccion">Jurenbergg Freilsh, 2</p>
+          <a href="#" class="footer-postal">52087 Munich</a>
+        </div>
+        <div class="col ft-sec">
+          <h3 class="footer-pais">Estados Unidos</h3>
+          <p class="footer-direccion">Area 51</p>
+          <a href="#" class="footer-postal">04500 Los Angeles</a>
+        </div>
+      </div>
+      <div class="row footer-bottom">
+        <a href="#" class="lang"><img src="../assets/img/lang-united-kingdom.png" title="cambiar idioma" alt="bandera de españa"></a>
+        <p class="fotter-p">InTalent Digital Solutions 2021 - <a href="#">Política de calidad</a> - <a href="#">Política
+            de cookies</a> - <a href="#">Aviso Legal</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
