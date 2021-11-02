@@ -16,6 +16,53 @@
     background-color: #e7eaeb;
 }
 
+.banner-text{
+    max-width: 530px;
+}
+
+.div-inner-search{
+    max-height: 35px;
+}
+
+.icon-buscar{
+    font-size: 1.7em;
+    margin-top: -4px;
+    margin-right: 6px;
+}
+
+.dropdown .btn{
+    margin: 0px 1em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 110px;
+    padding: 0.4em 1em;
+    margin-bottom: 1em;
+}
+
+.caret{
+    margin-left: 0.2em;
+}
+
+.dropdown-menu a{
+    color: black;
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+.dropdown-menu a:hover{
+    color: var(--accent-color) !important;
+}
+
+.banner-filters{
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.form-group{
+    margin-left: 1em;
+}
 
 /***enlaces***/
 
