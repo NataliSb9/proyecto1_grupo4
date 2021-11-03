@@ -30,6 +30,7 @@ Nuestra web es una página estática pero que está desplegada gracias a GitHub 
 - HTML
 - CSS
 - Bootstrap 5.1v
+- Flex
 - Git & GitHub
 - Markdown
 - Jira (usada para la gestión del proyecto)
